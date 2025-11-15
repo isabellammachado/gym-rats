@@ -3,9 +3,12 @@ import { styles } from "./style";
 import { AntDesign } from '@expo/vector-icons';  
 import { Botao } from "../../components/Button";
 import { Texto } from "../../components/Text";
+import { useNavigation } from "@react-navigation/native";
 
 
 export function Login() {
+   const navigation = useNavigation(); 
+
   return (
     <View style={styles.container}>
       <View style={styles.icone}>
@@ -27,9 +30,11 @@ export function Login() {
       titulo= 'Fazer Login' 
       color='#fff'
       backgroundColor='#D03A2B'
+      onChange={() => navigation.navigate("TabHome")}
       />
       <Botao 
       titulo= 'Redefinir minha senha' 
+
       />
     </View>
     <View style={styles.cabecalho}>
