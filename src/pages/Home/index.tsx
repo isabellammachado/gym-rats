@@ -1,4 +1,4 @@
-import {Image, Text, View } from "react-native"
+import {Image, Text, TouchableOpacity, View } from "react-native"
 import { styles } from "./style";
 import { useNavigation } from "@react-navigation/native";
 import { Card } from './../../components/Card/index';
@@ -14,6 +14,7 @@ import treinoAcademia  from "../../assets/treinoAcademia.jpeg";
 import treinoBike from "../../assets/treinoBike.jpeg";
 import teinoPilates from "../../assets/treinoPilates.jpeg";
 import treinoTrilha from "../../assets//treinoTrilha.jpeg";
+
 
 
 
@@ -76,6 +77,9 @@ export const Home = () => {
           <Card listaPessoas={listaPessoas} />
           </View>
         )}
+        <TouchableOpacity style={styles.botaoRedondo}> 
+          <Text> <FontAwesome6 name="add" size={24} color="white" /></Text>
+        </TouchableOpacity>
         
       
     </View>
