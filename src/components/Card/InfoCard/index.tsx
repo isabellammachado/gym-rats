@@ -1,26 +1,30 @@
 import { Image, Text, View } from "react-native"
-import UserDefault from '../../../../assets/images.png';
 import { styles } from "./style";
 import { PropsInfoCard } from "../types";
 
-export const InfoCard = ({nome, descricao} : PropsInfoCard ) => {
+
+
+export const InfoCard = ({nome, descricao, foto} : PropsInfoCard ) => {
   
   return(
-    <View style={styles.card}>
-            <View>
-                <Image source={UserDefault} style={styles.image} alt="Foto perfil" />
-            <Text style={styles.subTitle}>
+    <>
+    <View >
+            <View style={styles.card}>
+                <Image source={foto} style={styles.image} alt="Foto perfil" />
+                  <Text style={styles.subTitle}>
                 {descricao}
-            </Text>
-            <Text style={styles.title}>
-               {nome}
-            </Text>
-
-              
+                  </Text>
+                  <Text style={styles.title}>
+                        {nome}
+                  </Text>
             </View>
+              
 
-            
-          </View>
+      </View>
+        
+
+      </>
+      
 
   )
 }

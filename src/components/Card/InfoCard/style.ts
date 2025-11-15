@@ -6,13 +6,15 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
 
     container:{
-    flex:1,
-    backgroundColor:'#F8F8F8',
-    paddingTop: 30, 
+        flex:1,
+        backgroundColor:'#F8F8F8',
+        paddingTop: 30, 
     },
 
     title:{
-
+        flexDirection: 'row',
+        // justifyContent: 'space-between',
+        
 
     },
 
@@ -22,13 +24,13 @@ export const styles = StyleSheet.create({
     },
 
     card: {
-    backgroundColor: 'white',
-    borderRadius: 10,
-    paddingHorizontal: 5,
-    paddingVertical: 5,
-    marginBottom: 10,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+        backgroundColor: 'white',
+        borderRadius: 10,
+        paddingHorizontal: 5,
+        paddingVertical: 5,
+        marginBottom: 10,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
     },
 
     image: {
@@ -38,6 +40,9 @@ export const styles = StyleSheet.create({
         objectFit: 'cover',
         flexDirection: 'row',
         justifyContent: 'space-between',
+    },
+    dias:{
+        fontSize:20
     }
 
     

@@ -30,7 +30,7 @@ export function Login() {
       titulo= 'Fazer Login' 
       color='#fff'
       backgroundColor='#D03A2B'
-      onChange={() => navigation.navigate("TabHome")}
+      onChange={() => navigation.navigate("Home")}
       />
       <Botao 
       titulo= 'Redefinir minha senha' 

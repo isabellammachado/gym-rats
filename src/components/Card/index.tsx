@@ -15,11 +15,12 @@ export const Card = ({listaPessoas}: IListProps) => {
           <InfoCard 
           nome ={item.nome}
           descricao ={item.descricao}
+          foto={item.foto}
           
           />
           
         }
       />
-    </>
+   </>
   )
 }
