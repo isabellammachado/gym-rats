@@ -14,8 +14,7 @@ export const TabsRouters = () => {
   return(
  
     <Tab.Navigator screenOptions={{headerShown: false}}>
-      <Tab.Screen name="Login" component={Login} />
-      <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Home" component={Home} /> 
       <Tab.Screen name="Detalhes" component={Detalhes} options={{
       tabBarIcon: ({ color, size }) => (<Ionicons name="id-card-outline" size={size} color={color} /> )}}/>
       <Tab.Screen name="Classificações" component={Classificacoes} options={{
