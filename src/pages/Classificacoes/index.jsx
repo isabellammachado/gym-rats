@@ -5,7 +5,7 @@ export const Classificacoes= () => {
     return(
         <View style={styles.container}>
             <Text style={styles.title}>
-               CLASSIFICAÇOES
+               Esse também não
             </Text>
         </View>
     )

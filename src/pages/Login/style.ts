@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native"; 
-// import { Signika } from "../../../assets/fonts/ninutoFonteBold."
 
 
 
@@ -8,8 +7,7 @@ export const styles = StyleSheet.create({
     container: {
         flex:1,
         backgroundColor:'#F8F8F8',
-         paddingTop: 30, 
-       
+        paddingTop: 30, 
     },
 
     icone:{
@@ -27,10 +25,8 @@ export const styles = StyleSheet.create({
         alignItems: 'flex-start',
         paddingTop: 20,
         marginBlock:5,
-        fontWeight: 'bold',
-        // fontFamily: Signika
+        fontFamily: 'Nunito-ExtraBold' , 
     
-        
     },
     
 
@@ -42,19 +38,19 @@ export const styles = StyleSheet.create({
     },
 
     input:{
-    marginBlock: 6,
-    width:'90%',
-    backgroundColor: '#fff',
-    color: '#282828',
-    borderColor: '#D0D0D0',
-    borderWidth: 1,
-    fontSize: 20,
-    borderRadius:8,
-    padding:10,
-    paddingTop: 20, 
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    margin: 20
+        marginBlock: 6,
+        width:'90%',
+        backgroundColor: '#fff',
+        color: '#282828',
+        borderColor: '#D0D0D0',
+        borderWidth: 1,
+        fontSize: 20,
+        borderRadius:8,
+        padding:10,
+        paddingTop: 20, 
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        margin: 20
     },
 
     cabecalho:{

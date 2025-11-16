@@ -5,7 +5,7 @@ export const BatePapo = () => {
     return(
         <View style={styles.container}>
             <Text style={styles.title}>
-                Bate-Papo
+                Esse aqui muito menos
             </Text>
         </View>
     )

@@ -1,4 +1,4 @@
-import {Platform, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
     overflow: 'hidden',
     padding:20,
     paddingTop:70
-    
   },
 
   wrapper:{
@@ -21,18 +20,21 @@ export const styles = StyleSheet.create({
     paddingBlockEnd:10
   },
   title:{
-    fontSize: 25,
-    flexDirection: "column"
+    fontSize: 24,
+    flexDirection: "column",
+    fontFamily: 'Nunito-ExtraBold' ,
+    marginBottom: 5,
   },
 
   imageBanner:{
     width: '100%',
     height: 150,
-    resizeMode: 'contain'
+    resizeMode: 'contain',
+    borderRadius:10,
     
   },
   botaoRedondo:{
-    backgroundColor: "#D03A2B",
+    backgroundColor: "#D33A2C",
     borderRadius: 50, 
     width:60,
     height:60,

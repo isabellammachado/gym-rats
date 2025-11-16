@@ -5,7 +5,7 @@ export const Detalhes = () => {
     return(
         <View style={styles.container}>
             <Text style={styles.title}>
-                DETALHES
+                Seria legal se eu fizesse, né? Mas n deu
             </Text>
         </View>
     )

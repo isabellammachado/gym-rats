@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/logoGymRats.webp",
+      "image": "./assets/logoGymRats.png",
       "resizeMode": "contain",
       "backgroundColor": "#D03A2B"
     },
@@ -17,14 +17,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/inicioApp.png",
         "backgroundColor": "#D03A2B"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/logoGymRats.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

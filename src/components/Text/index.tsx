@@ -8,7 +8,7 @@ import { IPropsText } from "./type";
     <Text
      style= {[styles.cabecalho ,
           {
-            color: color ? color :'#D03A2B',
+            color: color ? color :'#D33A2C',
           }
           
         ]}>

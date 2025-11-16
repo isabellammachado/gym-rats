@@ -11,7 +11,7 @@ export const Routers = () => {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
       <Stack.Screen  name="StackHome" component={TabsRouters}/>
-       <Stack.Screen  name="StackLogin" component={Login} /> 
+      <Stack.Screen  name="StackLogin" component={Login} /> 
       </Stack.Navigator>
     </NavigationContainer>
   )

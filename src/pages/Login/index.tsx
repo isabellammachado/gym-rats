@@ -12,7 +12,7 @@ export function Login() {
   return (
     <View style={styles.container}>
       <View style={styles.icone}>
-      <AntDesign name="left" size={24} color="black" />
+      <AntDesign name="left" size={15} color="black" />
     </View>
 
     <View>
