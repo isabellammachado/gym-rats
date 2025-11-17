@@ -4,10 +4,14 @@ import { AntDesign } from '@expo/vector-icons';
 import { Botao } from "../../components/Button";
 import { Texto } from "../../components/Text";
 import { useNavigation } from "@react-navigation/native";
+import { useFonts } from "expo-font";
 
 
 export function Login() {
-   const navigation = useNavigation(); 
+  
+  const [fontsLoaded] = useFonts({ 'Nunito-ExtraBold': require('../../../assets/fonts/static/Nunito-ExtraBold.ttf')});
+  
+  const navigation = useNavigation(); 
 
   return (
     <View style={styles.container}>
@@ -23,6 +27,7 @@ export function Login() {
        Bem-vindo de volta.
       </Text>
     </View>
+
     <View>
       <TextInput  keyboardType='email-address'  placeholderTextColor={'gray'} style={styles.input} placeholder='Email:'/>
       <TextInput secureTextEntry={true} placeholderTextColor={'gray'}  style={styles.input} placeholder='Senha:'/>
@@ -43,6 +48,7 @@ export function Login() {
       color ="#B3B3B3"
       >
       </Texto>
+      
        <Texto 
       titulo = 'Contate o suporte.'
       >

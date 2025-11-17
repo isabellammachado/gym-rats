@@ -31,8 +31,7 @@ export const styles = StyleSheet.create({
         fontSize: 12,
         position:'absolute',
         left: 310,
-          fontWeight: '300',
-    
+        fontWeight: '300',
 
     },
 

@@ -19,11 +19,13 @@ export const styles = StyleSheet.create({
     paddingTop:10,
     paddingBlockEnd:10
   },
+
   title:{
     fontSize: 24,
     flexDirection: "column",
-    fontFamily: 'Nunito-ExtraBold' ,
+    fontFamily: 'Nunito-ExtraBold',
     marginBottom: 5,
+    
   },
 
   imageBanner:{

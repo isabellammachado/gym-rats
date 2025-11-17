@@ -9,6 +9,7 @@ import fotoBike from "../../assets/treinoBike.jpeg"
 import fotoTrilha from "../../assets/treinoTrilha.jpeg"
 
 
+
 export const CardPrincpal = () => {
     return(
         <ScrollView>

@@ -1,16 +1,15 @@
 import {Image, Text, TouchableOpacity, View } from "react-native"
 import { styles } from "./style";
-import { useNavigation } from "@react-navigation/native";
 import {Feather } from '@expo/vector-icons';
 import Entypo from '@expo/vector-icons/Entypo';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import FotoBanner from "../../../src/assets/BANNERR.png"
 import { BannerComNome } from "../../components/CardAbaixoDaFoto";
 import { CardPrincpal } from "../../components/CardPrincipal";
+import { useFonts } from "expo-font";
 
 export const Home = () => {
-  
-  const navigation = useNavigation(); 
+  const [fontsLoaded] = useFonts({ 'Nunito-Bold': require('../../../assets/fonts/static/Nunito-ExtraBold.ttf')});
   return (
     <View style={styles.container}>
         <View style={styles.icone}>
@@ -18,7 +17,7 @@ export const Home = () => {
             <Text> <Feather name="bell" size={24} color="black" />       <Entypo name="dots-three-horizontal" size={24} color="black" /> </Text>
         </View>
         <View>
-           <Text style={styles.title}>SARADOS NA EUROPA 🇫🇷 🇮🇹 🥖</Text>
+           <Text style={styles.title}>Sarados na Europa 🇫🇷 🇮🇹 🥖</Text>
         </View>
         <View>
             <Image style={styles.imageBanner} source={FotoBanner} alt="Banner" />
@@ -28,7 +27,6 @@ export const Home = () => {
         </View>
         <View>
           <CardPrincpal>
-
           </CardPrincpal>
         </View>
         <TouchableOpacity style={styles.botaoRedondo}> 

@@ -2,7 +2,6 @@ import { Image, Text, View } from "react-native";
 import { styles } from "./style";
 import FotoPerfilEu from "../../../src/assets/FotoPerfilEu.png"
 import FotoPerfil2 from "../../../src/assets/perfil2.png"
-
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 export const BannerComNome = () => {
@@ -21,6 +20,5 @@ export const BannerComNome = () => {
       <Text style={styles.title}> 199{"\n"} dias restantes</Text>
       </View>
     </View>
-    
   );
 };

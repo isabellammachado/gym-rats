@@ -1,3 +1,4 @@
+
 import { StyleSheet } from "react-native"; 
 
 
@@ -26,7 +27,7 @@ export const styles = StyleSheet.create({
         paddingTop: 20,
         marginBlock:5,
         fontFamily: 'Nunito-ExtraBold' , 
-    
+
     },
     
 
