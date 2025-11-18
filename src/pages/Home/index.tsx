@@ -9,7 +9,12 @@ import { CardPrincpal } from "../../components/CardPrincipal";
 import { useFonts } from "expo-font";
 
 export const Home = () => {
-  const [fontsLoaded] = useFonts({ 'Nunito-Bold': require('../../../assets/fonts/static/Nunito-ExtraBold.ttf')});
+  const [fontsLoaded] = useFonts({ 'Nunito-ExtraBold': require('../../../assets/fonts/static/Nunito-ExtraBold.ttf')});
+  
+  if (!fontsLoaded) {
+  return null; 
+  }
+
   return (
     <View style={styles.container}>
         <View style={styles.icone}>
@@ -26,8 +31,7 @@ export const Home = () => {
             <BannerComNome /> 
         </View>
         <View>
-          <CardPrincpal>
-          </CardPrincpal>
+          <CardPrincpal />
         </View>
         <TouchableOpacity style={styles.botaoRedondo}> 
           <Text> <FontAwesome6 name="add" size={24} color="white" /></Text>

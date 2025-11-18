@@ -30,7 +30,6 @@ export const styles = StyleSheet.create({
 
     },
     
-
     subtitle:{
         fontSize: 15,
         marginLeft: 20,

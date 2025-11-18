@@ -4,7 +4,7 @@ export const styles  = StyleSheet.create({
     image:{
         width: 30,     
         height: 30,    
-        borderRadius: '50%',
+        borderRadius: 50,
         objectFit: 'cover',
         flexDirection: 'row',
 
