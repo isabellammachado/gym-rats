@@ -54,14 +54,28 @@ export const styles = StyleSheet.create({
         margin: 20
     },
 
-    cabecalho:{
-        fontSize: 13,
-        color: '#B6B6B6',
+    rodape:{
         flexDirection: 'row',
         marginLeft: 20,
         marginBlock: 3
-        
-        
+    },
+
+    textoUmRodape:{
+        fontFamily: 'System',
+        fontSize: 13,
+        color: '#B6B6B6',
+        flexDirection: 'row',
+        marginLeft: 2,
+        marginBlock: 3
+    },
+    textoDoisRodape:{
+        fontFamily: 'System',
+        fontSize: 13,
+        color: '#D03A2B',
+        flexDirection: 'row',
+        marginLeft: 2,
+        marginBlock: 3,
+        fontWeight: '300'
     }
 
 })

@@ -5,5 +5,4 @@ export interface IPropsButton {
  color?: string;
  onChange?: () => void;
 
-
  }
